@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Botões -->
+    <string name="retry_button_text">Tentar Novamente</string>
+    <string name="ok_button_text">Ok, entendi</string>
+
+    <!-- Títulos de erro -->
+    <string name="error_title_request_timeout">Tempo Esgotado</string>
+    <string name="error_title_no_internet">Sem Conexão</string>
+    <string name="error_title_connection_failed">Falha na Conexão</string>
+    <string name="error_title_bad_request">Requisição Inválida</string>
+    <string name="error_title_unauthorized">Não Autorizado</string>
+    <string name="error_title_forbidden">Acesso Negado</string>
+    <string name="error_title_not_found">Recurso Não Encontrado</string>
+    <string name="error_title_client_error">Erro do Cliente</string>
+    <string name="error_title_internal_server_error">Erro no Servidor</string>
+    <string name="error_title_http_error">Erro HTTP</string>
+    <string name="error_title_ssl_error">Erro de Segurança SSL</string>
+    <string name="error_title_out_of_memory">Memória Insuficiente</string>
+    <string name="error_title_quota_error">Limite de Uso Excedido</string>
+    <string name="error_title_unknown">Erro Desconhecido</string>
+    <string name="error_title_constraint_violation">Erro no Banco de Dados</string>
+    <string name="error_title_generic_error">Erro no Sistema</string>
+
+    <!-- Mensagens de erro -->
+    <string name="error_message_request_timeout">A requisição demorou muito. Tente novamente.</string>
+    <string name="error_message_no_internet">Verifique sua conexão e tente novamente.</string>
+    <string name="error_message_connection_failed">Falha ao conectar ao servidor. Tente novamente.</string>
+    <string name="error_message_bad_request">Houve um problema com os dados enviados.</string>
+    <string name="error_message_unauthorized">Você não tem permissão para acessar este recurso.</string>
+    <string name="error_message_forbidden">Você não pode acessar esta funcionalidade.</string>
+    <string name="error_message_not_found">O recurso solicitado não foi encontrado.</string>
+    <string name="error_message_client_error">Houve um erro na sua requisição.</string>
+    <string name="error_message_internal_server_error">Erro interno no servidor. Tente mais tarde.</string>
+    <string name="error_message_http_error">Houve um problema na comunicação com o servidor.</string>
+    <string name="error_message_ssl_error">Problema de segurança detectado.</string>
+    <string name="error_message_out_of_memory">Seu dispositivo está com pouca memória.</string>
+    <string name="error_message_quota_error">Você atingiu o limite de requisições. Tente mais tarde.</string>
+    <string name="error_message_unknown">Ocorreu um erro inesperado.</string>
+    <string name="error_message_constraint_violation">Erro de integridade no banco de dados.</string>
+    <string name="error_message_generic_error">Erro desconhecido no banco de dados.</string>
+
+    <!-- CoinHomeScreen -->
+    <string name="title_test_mb">Teste Mercado Bitcoin</string>
+    <string name="label_price">Preço</string>
+    <string name="label_crypto">Moedas</string>
+
+    <!-- CoinDetailScreen -->
+    <string name="label_loading">Carregando…</string>
+    <string name="label_price_usd">💰 Preço (USD): %s</string>
+    <string name="label_unknown">Desconhecido</string>
+    <string name="label_cryptocurrency">Criptomoeda</string>
+    <string name="label_currency">Moeda</string>
+    <string name="label_asset">Ativo</string>
+    <string name="title_asset_details">Detalhes do Asset</string>
+
+    <!-- AboutDialog -->
+    <string name="title_challenge">MB Exchange Tracker</string>
+    <string name="title_tecnologies_and_arch">Tecnologias e Arquitetura</string>
+    <string name="description_tecnologies_and_arch">O projeto foi desenvolvido com uma abordagem moderna, utilizando Clean Architecture e o padrão MVI (Model-View-Intent) para garantir maior previsibilidade e imutabilidade no fluxo de dados. A estrutura modular foi organizada da seguinte forma:</string>
+    <string name="title_modularization">Modularização</string>
+    <string name="title_tech">Tecnologias Utilizadas</string>
+    <string name="description_tech">✅ Jetpack Compose → Interface declarativa e reativa, garantindo performance e modularidade.\n\n✅ MVI + Clean Architecture → Para maior organização, previsibilidade e testabilidade.\n\n✅ Koin → Para injeção de depedências.\n\n✅ Room → Para persistência local de dados.\n\n✅ Retrofit → Para comunicação com a CoinAPI.io, garantindo consumo eficiente de dados.\n\n✅ Coil → Para carregamento eficiente de imagens.\n\n✅ Testes Unitários → Cobertura aplicada para garantir robustez e confiabilidade.</string>
+    <string name="description_modularization">✅ Domain → Contém os casos de uso e entidades da aplicação.\n\n✅ Data → Implementa os repositórios, camada de persistência (Room) e consumo de API (Retrofit).\n\n✅ Feature → Responsável pela interface e lógica de apresentação, seguindo a estrutura presentation > viewmodel > intent > state.\n\n✅ CoreDS → Um Design System escalável, garantindo consistência visual e reutilização de componentes.</string>
+</resources>
